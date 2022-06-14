@@ -1,0 +1,121 @@
+.skillContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(41deg, rgb(45, 194, 247), rgb(194, 36, 54));
+  overflow: hidden;
+}
+.skillContainer__bg {
+  //   display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.skillContainer__text {
+  color: white;
+  flex: 0.6;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.skillContainer__text > h2 {
+  font-size: 30px;
+}
+.skillContainer__img {
+  flex: 0.4;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.skillContainer__img > img {
+  width: 750px;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.skillContainer__skillSet > h5 {
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary {
+  flex-direction: column;
+  background-color: rgb(88, 88, 88);
+}
+
+.skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: tomato;
+}
+
+.skillContainer__slider2 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(156, 26, 3);
+}
+
+.skillContainer__slider3 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(255, 145, 0);
+}
+
+.skillContainer__slider4 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(228, 213, 0);
+}
+
+.skillContainer__slider5 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(136, 146, 0);
+}
+
+.skillContainer__slider6 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(255, 209, 6);
+}
+
+@media (max-width: 880px) {
+  .skillContainer__img {
+    flex: 0.2;
+
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .skillContainer__text > h2 {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .skillContainer__skillSet > h5 {
+    margin-left: 15px;
+    font-weight: 250;
+    padding-bottom: 7px;
+    padding-top: 25px;
+  }
+  .skillContainer__slider > .MuiLinearProgress-colorPrimary {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .skillContainer__img {
+    flex: 0;
+
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .skillContainer__text > h2 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .skillContainer__skillSet > h5 {
+    margin-left: 15px;
+    font-weight: 200;
+    padding-bottom: 7px;
+    padding-top: 25px;
+  }
+  .skillContainer__slider > .MuiLinearProgress-colorPrimary {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
